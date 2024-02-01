@@ -1,6 +1,9 @@
 # TodoApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.1.
+Node 10.2.4
+Make sure that you hav eboth node and angular in your machine
+Run `npm install` before setting up the project
 
 ## Development server
 
