@@ -1,0 +1,18 @@
+<!-- <div *ngIf="shownToaster">
+ <app-toast *ngFor="let toast of toastService.toasts" [message]="toast.message" (onClose)="toastService.remove(toast)"></app-toast>
+</div> -->
+<mat-card>
+  <div>
+    <h2><img src="../../assets/logo/sm-cl.png" alt="todo">TODO List</h2>
+    <input id="txt-bx" type="text" [(ngModel)]="task" placeholder="Add a new task" (keyup.enter)="addTodo()">
+    <button id="add" (click)="addTodo()">Add</button>
+    <ul>
+      <li *ngFor="let t of taskList; let i = index">
+        {{ t }}
+        <button (click)="removeTodo(i)">Remove</button>
+      </li>
+    </ul>
+  </div>
+</mat-card>
+
+

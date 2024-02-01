@@ -1,0 +1,85 @@
+mat-card {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h2 {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  
+    img {
+      margin-right: 10px;
+      max-height: 30px;
+    }
+  }
+  
+  #txt-bx {
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    width: 60%;
+  }
+  
+  #add {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  
+    button {
+      padding: 5px 10px;
+      cursor: pointer;
+      background-color: #ff6347;
+      color: #fff;
+      border: none;
+      border-radius: 5px; 
+    }
+  
+    button:hover {
+      background-color: #cc4b38;
+    }
+  }
+
+
+  .toast-container {
+    position: relative;
+  }
+  
+  .toast {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  
